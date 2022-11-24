@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Registro.cpp";
+#include "Registro.h";
 
 class Filtro : public Registro
 {
