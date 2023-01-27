@@ -1,0 +1,38 @@
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 1.2e+006 <[]| |[****]|
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   >Asus |<<<|
+|>>>| fecha de venta:        >2020/10/12 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >500000 |<<<|
+|>>>| Numero de factura:     >asd123 |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Procesador |<<<|
+
+|>>>| Nombre del producto:   >Intel |<<<|
+|>>>| fecha de venta:        >2020/12/10 |<<<|
+|>>>| Modalidad de venta:    >O |<<<|
+|>>>| Precio de la venta:    >700000 |<<<|
+|>>>| Numero de factura:     >tft123 |<<<|
+
+>----------------------------------------<
+
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 450000 <[]| |[****]|
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   >ASus |<<<|
+|>>>| fecha de venta:        >2020/10/11 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >450000 |<<<|
+|>>>| Numero de factura:     >tft123 |<<<|
+
+>----------------------------------------<
+

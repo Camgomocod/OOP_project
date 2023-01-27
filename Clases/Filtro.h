@@ -1,11 +1,18 @@
-#include <iostream>
-#include "Registro.h";
+#ifndef FILTRO_H_
+#define FILTRO_H_
 
-class Filtro : public Registro
+#include <iostream>
+
+
+class Filtro
 {
 private:
-    
+    std::string modalidad_factura;
 public:
-    Filtro(/* args */);
-    ~Filtro();
+    Filtro(std::string);
+    Filtro();
+    void filtrar_modalidad(Node* head);
+    void imprimir_ventas(Node* head);
 };
+
+#endif
