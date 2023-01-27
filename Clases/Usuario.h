@@ -55,25 +55,25 @@ void Usuario::recomendador(){
 	switch(opc2){
 		case 1:
 			if (opc1 == 1){
-				visualizador.imprimir_registros_generales("../archivos del programa/CategoriasPcs/gaming-economico.txt");
+				visualizador.imprimir_registros_generales("../Archivos/gaming-economico.txt");
 			}else if(opc1 == 2){
-				visualizador.imprimir_registros_generales("../archivos del programa/CategoriasPcs/multimedia-economico.txt");
+				visualizador.imprimir_registros_generales("../Archivos/multimedia-economico.txt");
 			}
 			break;
 		
 		case 2:
 			if (opc1 == 1){
-				visualizador.imprimir_registros_generales("../archivos del programa/CategoriasPcs/gaming-equilibrado.txt");
+				visualizador.imprimir_registros_generales("../Archivos/gaming-equilibrado.txt");
 			}else if(opc1 == 2){
-				visualizador.imprimir_registros_generales("../archivos del programa/CategoriasPcs/multimedia-equilibrado.txt");
+				visualizador.imprimir_registros_generales("../Archivos/multimedia-equilibrado.txt");
 			}
 			break;
 		
 		case 3:
 			if (opc1 == 1){
-				visualizador.imprimir_registros_generales("../archivos del programa/CategoriasPcs/gaming-loMejor.txt");
+				visualizador.imprimir_registros_generales("../Archivos/gaming-loMejor.txt");
 			}else if(opc1 == 2){
-				visualizador.imprimir_registros_generales("../archivos del programa/CategoriasPcs/multimedia-loMejor.txt");
+				visualizador.imprimir_registros_generales("../Archivos/multimedia-loMejor.txt");
 			}
 			break;
 	}
