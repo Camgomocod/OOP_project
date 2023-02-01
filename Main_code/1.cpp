@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     Tienda tienda;
     Usuario usuario;
 
-    Node* head;
+    Node* head = NULL;
     int opc {0};
 
     do
