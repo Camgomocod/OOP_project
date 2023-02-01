@@ -1,7 +1,7 @@
 #ifndef LINKEDLIST_H_
 #define LINKEDLIST_H_
 #include <iostream>
-#include "Node.h"
+#include "Node.cpp"
 
 class LinkedList
 {
