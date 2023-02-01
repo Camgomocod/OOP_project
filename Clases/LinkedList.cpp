@@ -1,48 +1,6 @@
 #include "LinkedList.h"
 #include <iostream>
 
-/**
- * @brief
- * le pasomos el indice del nodo que querenos eliminar de ek linked list
- * una ves eleminado se vuelve a conecatr la list con la direccion del nodo
- * siguiente
-*/
-void LinkedList::eleminar_venta(int nodeOffSett) {
-    Node* temp1 = head, *temp2 = NULL;
-    int ListLen {0};
-
-    if(head == NULL) {
-        std::cout << "List Empty" << std::endl;
-        return;
-    }
-
-    while(temp1 != NULL){
-        temp1 = temp1->next;
-        ListLen++;
-    }
-
-    if(ListLen < nodeOffSett) {
-        std::cout << "Index out of the range " << std::endl;
-        return;
-    }
-
-    temp1 = head;
-
-    if(nodeOffSett == 1) {
-        head = head->next;
-        delete temp1;
-        return;
-    }
-
-    while (nodeOffSett-- > 1)
-    {
-        temp2 = temp1;
-        temp1 = temp1->next;
-    }
-
-    temp2->next = temp1->next;
-    
-}
 
 /**
  * @brief
@@ -142,12 +100,13 @@ void LinkedList::modificar_valor_venta(){
  * Asignamos la informacion correspondiente a las variables para luego enviarselos a la funcion que
  * conecta a los nodos y en lamisma se las envia al constructir
 */
-void LinkedList::registrar_informacion_venta(void){
+
+void LinkedList::registrar_informacion_venta(){
     std::string categoria_producto, nombre_producto, modalidad_venta, num_factura;
     std::string dia, mes, anio, fecha_venta;
     int num_nodos {}, digitar_categoria{};
     double precio_venta;
-
+    
     std::cout << ("|[**]> Digite cuantas ventas desea ingresar :   <|[**]") << std::endl;
     std::cin >> num_nodos;
 
@@ -195,8 +154,9 @@ void LinkedList::registrar_informacion_venta(void){
             break;
         }
         
+        
         std::cout << "|[>>>]|Ingrese el nombre del producto\n[[**]]>";
-        std::cin >> nombre_producto;
+        getline(std::cin ,nombre_producto);
         std::cin.ignore(10000,'\n');
         std::cout << std::endl;
         std::cout << "|[>>>]|Ingrese la fecha de venta : " << std::endl;
@@ -226,10 +186,10 @@ void LinkedList::registrar_informacion_venta(void){
         std::cin >> num_factura;
 
         insertarNode(categoria_producto, nombre_producto, fecha_venta, modalidad_venta, precio_venta, num_factura);
+
         system("cls");
     }
 }
-
 
 
 

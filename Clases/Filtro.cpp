@@ -1,13 +1,13 @@
 #include "Filtro.h"
 
-Filtro::Filtro(std::string modalidad_venta){
-    this->modalidad_factura = modalidad_venta;
-}
-
-Filtro::Filtro(){
-    this->modalidad_factura = "";
-}
-
+/**
+ * @brief
+ * Ingresamos la modalidad que deseamos filtrar 
+ * 1. Presenvial
+ * 2. Online
+ * si la categoria coincide con la ingresada estas se mostraran, si coincide
+ * con la hiteracion de los nodos
+*/
 void Filtro::filtrar_modalidad(Node* head){
     Node* temp = head;
     std::string modalidad;
@@ -19,12 +19,12 @@ void Filtro::filtrar_modalidad(Node* head){
     }
     
 
-    std::cout << "|>>>| Ingrese el numero de la factura de la venta: |<<<|" << std::endl;
+    std::cout << "|>>>| Ingrese la modalidad de venta para ver los registros: |<<<|" << std::endl;
     std::cin >> modalidad;
 
     while (temp != NULL)
     {       
-        if (temp->numero_factura == modalidad)
+        if (temp->modalidad_venta == modalidad)
         {
             std::cout << ">----------------------------------------<" << std::endl;
             std::cout << std::endl;
@@ -46,6 +46,11 @@ void Filtro::filtrar_modalidad(Node* head){
     
 }
 
+/**
+ * @brief 
+ * Imprimimos todas las ventas ingresadas hiterando los nodos hasta llegar al ultimo cuyo link
+ * es NULL ahi se detiene la impresion.
+*/
 void Filtro::imprimir_ventas(Node* head){
     Node* temp = head;
     

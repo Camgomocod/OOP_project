@@ -31,3 +31,39 @@
 |>>>| Precio de la venta:     > 440000.0 < |<<<|
 
 >-------------------------------------- <
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Ram |<<<|
+
+|>>>| Nombre del producto:   >Corsair |<<<|
+|>>>| fecha de venta:        >2020/1/14 |<<<|
+|>>>| Modalidad de venta:    >O |<<<|
+|>>>| Precio de la venta:    >860000 |<<<|
+|>>>| Numero de factura:     >tft123 |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Ssd |<<<|
+
+|>>>| Nombre del producto:   > |<<<|
+|>>>| fecha de venta:        >2021/5/30 |<<<|
+|>>>| Modalidad de venta:    >O |<<<|
+|>>>| Precio de la venta:    >350000 |<<<|
+|>>>| Numero de factura:     >123asd |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   > |<<<|
+|>>>| fecha de venta:        >2021/5/19 |<<<|
+|>>>| Modalidad de venta:    >O |<<<|
+|>>>| Precio de la venta:    >450000 |<<<|
+|>>>| Numero de factura:     >asd123 |<<<|
+
+>----------------------------------------<
+

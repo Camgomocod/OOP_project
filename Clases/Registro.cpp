@@ -1,7 +1,13 @@
+
 #include "Registro.h"
 #include <fstream>
 #include <iostream>
 
+/**
+ * @brief
+ * Calculamos el valor total de todas las ventas sumando la hiteracion de precio venta
+ * en la variable
+*/
 double Registro::total_ventas_registradas(Node* head){
     Node* temp = head;
     double suma_ventas {0};
@@ -18,6 +24,11 @@ double Registro::total_ventas_registradas(Node* head){
 }
 
 
+/**
+ * @brief 
+ * Almacenamos las ventas registradas en txt para cuando el usuario salga del programa
+ * y se guarden automaticamente, escribimos enlos txts todo lo registrado por el usuario.
+*/
 void Registro::almacenar_ventas(Node* head){
     Node* temp = head;
     std::fstream file;
@@ -26,7 +37,7 @@ void Registro::almacenar_ventas(Node* head){
     if(!file.is_open()) std::cout << "|>>>| ERROR AL ABRIR EL ARCHIVO |<<<|" << std::endl;
 
     double suma_ventas {total_ventas_registradas(head)};
-    if (temp->categoria_producto == "")
+    if (!(temp->categoria_producto == ""))
     {
         file << "|[****]| REGISTRO TOTAL DE VENTAS: |[]> " << suma_ventas << " <[]| |[****]|"<< std::endl;
     }
@@ -53,6 +64,11 @@ void Registro::almacenar_ventas(Node* head){
     file.close();
 }
 
+/**
+ * @brief
+ * Segun la modalidad que se se la apse guardara los registros, la etiqueta corresponde
+ * al path de direccion edel archivo txt
+*/
 void Registro::almacenar_modalidad(Node* head, std::string modalidad, std::string etiqueta){
     Node* temp = head;
     std::fstream file;

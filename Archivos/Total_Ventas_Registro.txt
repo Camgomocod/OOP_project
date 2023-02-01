@@ -36,3 +36,113 @@
 
 >----------------------------------------<
 
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   >Asus |<<<|
+|>>>| fecha de venta:        >2020/10/12 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >450000 |<<<|
+|>>>| Numero de factura:     >12asd |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   >Asus |<<<|
+|>>>| fecha de venta:        >2020/10/12 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >500000 |<<<|
+|>>>| Numero de factura:     >tft123 |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Procesador |<<<|
+
+|>>>| Nombre del producto:   >Intel |<<<|
+|>>>| fecha de venta:        >2020/10/15 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >1e+006 |<<<|
+|>>>| Numero de factura:     >cmg123 |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Ram |<<<|
+
+|>>>| Nombre del producto:   >Corsair |<<<|
+|>>>| fecha de venta:        >2020/1/14 |<<<|
+|>>>| Modalidad de venta:    >O |<<<|
+|>>>| Precio de la venta:    >860000 |<<<|
+|>>>| Numero de factura:     >tft123 |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   >Asus b560m |<<<|
+|>>>| fecha de venta:        >2020/15/10 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >500000 |<<<|
+|>>>| Numero de factura:     >asd456 |<<<|
+
+>----------------------------------------<
+
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 950000 <[]| |[****]|
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   > |<<<|
+|>>>| fecha de venta:        >2020/10/12 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >600000 |<<<|
+|>>>| Numero de factura:     >asd456 |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Ssd |<<<|
+
+|>>>| Nombre del producto:   > |<<<|
+|>>>| fecha de venta:        >2021/5/30 |<<<|
+|>>>| Modalidad de venta:    >O |<<<|
+|>>>| Precio de la venta:    >350000 |<<<|
+|>>>| Numero de factura:     >123asd |<<<|
+
+>----------------------------------------<
+
+|[****]| REGISTRO TOTAL DE VENTAS: |[]> 5.25e+006 <[]| |[****]|
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Placa Base |<<<|
+
+|>>>| Nombre del producto:   > |<<<|
+|>>>| fecha de venta:        >2021/5/19 |<<<|
+|>>>| Modalidad de venta:    >O |<<<|
+|>>>| Precio de la venta:    >450000 |<<<|
+|>>>| Numero de factura:     >asd123 |<<<|
+
+>----------------------------------------<
+
+>----------------------------------------<
+
+|>>>| Categoria Del Producto: >Ram |<<<|
+
+|>>>| Nombre del producto:   > |<<<|
+|>>>| fecha de venta:        >2022/21/15 |<<<|
+|>>>| Modalidad de venta:    >P |<<<|
+|>>>| Precio de la venta:    >4.8e+006 |<<<|
+|>>>| Numero de factura:     >tft123 |<<<|
+
+>----------------------------------------<
+
