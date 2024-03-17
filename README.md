@@ -28,3 +28,5 @@ Cascadia
 Ahora que si que se tiene idea de mas cosas en este punto
 
 Ahora se tienen cambios diferentes que van a ir a una rama diferente a la seleccionada
+
+Cambios para ser agregados con el add
